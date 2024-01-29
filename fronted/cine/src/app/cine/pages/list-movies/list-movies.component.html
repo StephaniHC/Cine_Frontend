@@ -1,0 +1,12 @@
+<section class="container cont-p">
+
+  <div class="row mt-5 cont-card">
+    <h2 class="text-center">CARTELERA</h2>
+
+    <div *ngFor="let movie of listMovies" class="col-md-3 mb-4 mt-2 ">
+      <star-card-movie [moviesReceived]="movie"></star-card-movie>
+    </div> 
+
+  </div> 
+
+</section>

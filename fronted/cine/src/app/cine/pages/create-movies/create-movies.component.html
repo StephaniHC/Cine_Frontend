@@ -1,0 +1,52 @@
+<div class="container">
+  <h2 class="text-center m-4">Datos de la Película</h2>
+  <form>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="form-group">
+          <label for="nombre">Nombre:</label>
+          <input type="text" class="form-control" id="nombre" name="nombre" required>
+        </div>
+
+        <div class="form-group">
+          <label for="fechaEstreno">Fecha de Estreno:</label>
+          <input type="date" class="form-control" id="fechaEstreno" name="fechaEstreno" required>
+        </div>
+
+        <div class="form-group">
+          <label for="sinopsis">Sinopsis:</label>
+          <textarea class="form-control" id="sinopsis" name="sinopsis" required></textarea>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="form-group">
+          <label for="genero">Género:</label>
+          <select class="form-control" id="genero" name="genero" required>
+            <option value="accion">Acción</option>
+            <option value="drama">Drama</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="clasificacion">Clasificación:</label>
+          <select class="form-control" id="clasificacion" name="clasificacion" required>
+            <option value="PG">PG</option>
+            <option value="PG-13">PG-13</option>
+            <option value="R">R</option>
+          </select>
+        </div>
+
+        
+        <div class="form-group">
+          <label for="imagen">Portada:</label>
+          <input type="file" class="form-control-file" id="imagen" name="imagen">
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center">
+      <button type="submit" class="btn btn-primary">Guardar</button>
+    </div>
+  </form>
+</div>

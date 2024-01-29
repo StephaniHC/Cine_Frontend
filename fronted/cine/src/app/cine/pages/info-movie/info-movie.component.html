@@ -1,0 +1,12 @@
+<section *ngIf="movie" class="section-info">
+  <div class="cont-info">
+    <div class="image-container">
+      <img [src]="movie.poster_path | movieImage" alt="">
+    </div>
+    <div class="cont-text ">
+      <h2> {{movie.title}} </h2>  
+    </div>
+  </div> 
+</section>
+
+

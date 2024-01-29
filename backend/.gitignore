@@ -1,0 +1,8 @@
+# Ignorar carpetas __pycache__ en cualquier lugar del proyecto
+__pycache__/
+# Ignorar carpetas __pycache__ en cualquier lugar del proyecto
+**/__pycache__/
+# Ignorar el entorno virtual
+venv/  
+# Ignorar el archivo de configuracion
+config/config.py
